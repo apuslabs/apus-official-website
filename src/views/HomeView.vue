@@ -187,7 +187,7 @@
       <div class="title" style="margin: 50px 0px 10px">Contact</div>
       <div class="desc" style="margin: 10px 20px 40px 20px">Interested in Apus Network development, accessing GPU compute, supplying GPU compute, or have any questions? Join the community and get involved! We'd love to meet you.</div>
       <el-row>
-        <el-col class="contract-big-item" :xs="apus.width >=1000 ? 6 : 12" :sm="apus.width >=1000 ? 6 : 12" :md="apus.width >=1000 ? 6 : 12" :lg="apus.width >=1000 ? 6 : 12" :xl="apus.width >=1000 ? 6 : 12" v-for="item in contracts" :key="item.src" style="padding: 16px 0px;">
+        <el-col class="contract-big-item" :xs="apus.width >=1000 ? 5 : 12" :sm="apus.width >=1000 ? 5 : 12" :md="apus.width >=1000 ? 5 : 12" :lg="apus.width >=1000 ? 5 : 12" :xl="apus.width >=1000 ? 5 : 12" v-for="item in contracts" :key="item.src" style="padding: 16px 0px;">
           <a :href="item.href">
             <div class="contract-item">
               <img :src="item.src" />
@@ -226,6 +226,40 @@ import { reasons, solutions, partners, roadmaps, contracts } from '@/utils/data'
 import { useApusStore } from '@/stores/apus'
 const apus = useApusStore()
 </script>
+
+<style>
+@media only screen and (min-width: 1920px) {
+  .el-col-xl-5 {
+      display: block;
+      max-width: 20%;
+      flex: 0 0 20%;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .el-col-lg-5 {
+      display: block;
+      max-width: 20%;
+      flex: 0 0 20%;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .el-col-md-5 {
+      display: block;
+      max-width: 20%;
+      flex: 0 0 20%;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .el-col-sm-5 {
+      display: block;
+      max-width: 20%;
+      flex: 0 0 20%;
+  }
+}
+</style>
 
 <style scoped lang="scss">
 .section {

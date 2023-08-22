@@ -19,6 +19,7 @@ import c1 from "@/assets/images/Twitter@2x.png";
 import c2 from "@/assets/images/medium@2x.png";
 import c3 from "@/assets/images/Telegram@2x.png";
 import c4 from "@/assets/images/github@2x.png";
+import c5 from "@/assets/images/email@2x.png";
 
 export const reasons = [
   {
@@ -137,6 +138,11 @@ export const contracts = [
     name: "GitHub",
     href: "https://github.com/apusnetwork-official",
     src: c4,
+  },
+  {
+    name: "Email",
+    href: "mailto:team@apus.network",
+    src: c5,
   },
 ];
 
