@@ -55,7 +55,7 @@
             </a>
           </el-col>
           <el-col class="" :xs="12" :sm="12" :md="12" :lg="12" :xl="12" style="padding: 8px 0px;">
-            <a href="https://github.com/apusnetwork-offical">
+            <a href="https://github.com/apusnetwork-official">
               <div class="contract-item">
                 <img src="@/assets/images/github_top@2x.png" />
               </div>
@@ -85,7 +85,7 @@
           <a href="https://twitter.com/apus_network">
             <img src="@/assets/images/Twitter_top@2x.png" class="link-image" />
           </a>
-          <a href="https://github.com/apusnetwork-offical">
+          <a href="https://github.com/apusnetwork-official">
             <img src="@/assets/images/github_top@2x.png" class="link-image" />
           </a>
         </div>

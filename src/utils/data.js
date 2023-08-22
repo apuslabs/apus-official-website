@@ -16,7 +16,7 @@ import p5 from "@/assets/images/everVision@2x.png";
 import p6 from "@/assets/images/PORTALVERSE@2x.png";
 
 import c1 from "@/assets/images/Twitter@2x.png";
-import c2 from "@/assets/images/email@2x.png";
+import c2 from "@/assets/images/medium@2x.png";
 import c3 from "@/assets/images/Telegram@2x.png";
 import c4 from "@/assets/images/github@2x.png";
 
@@ -119,23 +119,23 @@ export const roadmaps = [
 
 export const contracts = [
   {
-    name: "Twitter",
-    href: "https://twitter.com/apus_network",
-    src: c1,
-  },
-  {
-    name: "Email",
-    href: "mailto:jason@apus.network",
-    src: c2,
-  },
-  {
     name: "Telegram",
     href: "https://t.me/+AWdHtLSl2m4yM2I1",
     src: c3,
   },
   {
+    name: "Medium",
+    href: "https://medium.com/@apusnetwork",
+    src: c2,
+  },
+  {
+    name: "Twitter",
+    href: "https://twitter.com/apus_network",
+    src: c1,
+  },
+  {
     name: "GitHub",
-    href: "https://github.com/apusnetwork",
+    href: "https://github.com/apusnetwork-official",
     src: c4,
   },
 ];
