@@ -22,23 +22,23 @@ import c4 from "@/assets/images/github@2x.png";
 
 export const reasons = [
   {
-    title: "Decentralized Privacy Protection",
-    desc: "Establishing a decentralized data storage and management system, empowering users with direct control and management over their own data.",
+    title: "Permissionless and Decentralized",
+    desc: "By empowering anyone, anywhere to engage without permissions or barriers, we pave the way for a dynamic, global community-driven ecosystem.",
     src: r1,
   },
   {
-    title: "Open-Source",
-    desc: "Open-source platform encourages universal participation and contribution, allowing creators to directly publish and sell their NFTs to users, eliminating intermediaries.",
+    title: "No Middleman Margins",
+    desc: "By removing intermediaries, we substantially reduce the cost of compute, guaranteeing developers both exceptional affordability and an open, equitable pricing model.",
     src: r2,
   },
   {
-    title: "DAO and Incentivized Governance",
-    desc: "Establishing a DAO with transparent and equitable incentive mechanisms, encouraging users to contribute data and participate in community governance for token rewards.",
+    title: "Hyperscale Efficiency",
+    desc: "By harnessing global idle GPU resources and prioritizing scalability, we help developers address Generative AI tasks with greater efficiency.",
     src: r3,
   },
   {
-    title: "Cost-Effective and Accessible",
-    desc: "Addressing high cost issues with the open-source toolchains, enabling consumer-level GPU computational power, and utilizing distributed storage networks.",
+    title: "Advanced Security",
+    desc: "By integrating zero-knowledge proofs, homomorphic encryption, and other advanced cryptographic methods, we offer developers access to trustless GPU resources with the confidence of privacy and protection.",
     src: r4,
   },
 ];
@@ -105,7 +105,7 @@ export const roadmaps = [
   },
   {
     year: 2023,
-    plan: "Release Dev/Test Network Acquire more Web3's AI bots creators and users.",
+    plan: "Release Dev/Test Network Acquire more GPU miners and developers of generative AI.",
   },
   {
     year: 2024,

@@ -5,8 +5,8 @@
         <!-- <div class="mobile-image">
           <img src="@/assets/images/network.png" />
         </div> -->
-        <div class="title" style="margin-bottom:15px;font-size:27px;line-height:36px;font-weight:600">Decentralized AI Bots Creators Network​.</div>
-        <div class="desc" style="font-size:15px;line-height:21px;font-weight:400">Utilizing blockchain technology, it cultivates a worldwide network of AI bot creators, streamlining the process of AI model deisgn, training, and dissemination, while providing a transparent and equitable economy.</div>
+        <div class="title" style="margin-bottom:15px;font-size:27px;line-height:36px;font-weight:600">Decentralized GPU Compute Marketplace</div>
+        <div class="desc" style="font-size:15px;line-height:21px;font-weight:400">The Apus Network leverages idle GPU computing resources worldwide for generative AI tasks.<br/>It provides developers an affordable, efficient, and secure access to vast computational power.<br/>Embrace the future of AI and blockchain convergence with us today!</div>
         <div class="contract">
           <a href="#contact"> Contact Us → </a>
         </div>
@@ -15,8 +15,8 @@
     <div v-else :style="{maxWidth: apus.maxWidth}" class="pc">
       <div class="home-selection-item" :style="{margin: apus.width >= 1000 ? '180px 0px 100px 0px' : '120px 0px 100px 0px' }">
         <div class="left">
-          <div class="title" style="margin-bottom:32px;">Decentralized AI Bots Creators Network​.</div>
-          <div class="desc" style="font-weight:400">Utilizing blockchain technology, it cultivates a worldwide network of AI bot creators, streamlining the process of AI model deisgn, training, and dissemination, while providing a transparent and equitable economy.</div>
+          <div class="title" style="margin-bottom:32px;">Decentralized GPU Compute Marketplace</div>
+          <div class="desc" style="font-weight:400">The Apus Network leverages idle GPU computing resources worldwide for generative AI tasks.<br/>It provides developers an affordable, efficient, and secure access to vast computational power.<br/>Embrace the future of AI and blockchain convergence with us today!</div>
           <div class="contract" style="margin-top:24px;">
             <a href="#contact" id="ct"> Contact Us → </a>
           </div>
@@ -170,7 +170,7 @@
   <div id="contact" class="contact-section section">
     <div v-if="apus.mobile" class="mobile contract-mobile-item">
       <div class="title" style="font-size:24px;line-height:24px;font-weight:600;margin: 50px 0px 20px 0px">Contact</div>
-      <div class="desc" style="font-size:14px;line-height:21px;font-weight:400;margin: 10px 20px 40px 20px;">Interested in Apus Netwrok development, running a node, or have any questions? Join the community and get involved! We'd love to meet you.</div>
+      <div class="desc" style="font-size:14px;line-height:21px;font-weight:400;margin: 10px 20px 40px 20px;">Interested in Apus Network development, accessing GPU compute, supplying GPU compute, or have any questions? Join the community and get involved! We'd love to meet you.</div>
       <el-row style="margin:0px 12px">
         <el-col class="" :xs="12" :sm="12" :md="12" :lg="12" :xl="12" v-for="item in contracts" :key="item.src" style="padding: 8px 0px;">
           <a :href="item.href">
@@ -185,7 +185,7 @@
     </div>
     <div v-else :style="{maxWidth: apus.maxWidth}" class="pc">
       <div class="title" style="margin: 50px 0px 10px">Contact</div>
-      <div class="desc" style="margin: 10px 20px 40px 20px">Interested in Apus Netwrok development, running a node, or have any questions? Join the community and get involved! We'd love to meet you.</div>
+      <div class="desc" style="margin: 10px 20px 40px 20px">Interested in Apus Network development, accessing GPU compute, supplying GPU compute, or have any questions? Join the community and get involved! We'd love to meet you.</div>
       <el-row>
         <el-col class="contract-big-item" :xs="apus.width >=1000 ? 6 : 12" :sm="apus.width >=1000 ? 6 : 12" :md="apus.width >=1000 ? 6 : 12" :lg="apus.width >=1000 ? 6 : 12" :xl="apus.width >=1000 ? 6 : 12" v-for="item in contracts" :key="item.src" style="padding: 16px 0px;">
           <a :href="item.href">

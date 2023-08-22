@@ -34,6 +34,20 @@
         </el-menu>
         <el-row style="margin:0px">
           <el-col class="" :xs="12" :sm="12" :md="12" :lg="12" :xl="12" style="padding: 8px 0px;">
+            <a href="https://t.me/+AWdHtLSl2m4yM2I1">
+              <div class="contract-item">
+                <img src="@/assets/images/telegram@2x.png" />
+              </div>
+            </a>
+          </el-col>
+          <el-col class="" :xs="12" :sm="12" :md="12" :lg="12" :xl="12" style="padding: 8px 0px;">
+            <a href="https://medium.com/@apusnetwork">
+              <div class="contract-item">
+                <img src="@/assets/images/medium@2x.png" />
+              </div>
+            </a>
+          </el-col>
+          <el-col class="" :xs="12" :sm="12" :md="12" :lg="12" :xl="12" style="padding: 8px 0px;">
             <a href="https://twitter.com/apus_network">
               <div class="contract-item">
                 <img src="@/assets/images/Twitter_top@2x.png" />
@@ -41,7 +55,7 @@
             </a>
           </el-col>
           <el-col class="" :xs="12" :sm="12" :md="12" :lg="12" :xl="12" style="padding: 8px 0px;">
-            <a href="https://github.com/apusnetwork">
+            <a href="https://github.com/apusnetwork-offical">
               <div class="contract-item">
                 <img src="@/assets/images/github_top@2x.png" />
               </div>
@@ -62,10 +76,16 @@
           <li><a class="menu-link" id="six" href="#contact">Contact</a></li>
         </ul>
         <div class="link">
+          <a href="https://t.me/+AWdHtLSl2m4yM2I1">
+            <img src="@/assets/images/telegram@2x.png" class="link-image" />
+          </a>
+          <a href="https://medium.com/@apusnetwork">
+            <img src="@/assets/images/medium@2x.png" class="link-image" />
+          </a>
           <a href="https://twitter.com/apus_network">
             <img src="@/assets/images/Twitter_top@2x.png" class="link-image" />
           </a>
-          <a href="https://github.com/apusnetwork">
+          <a href="https://github.com/apusnetwork-offical">
             <img src="@/assets/images/github_top@2x.png" class="link-image" />
           </a>
         </div>
