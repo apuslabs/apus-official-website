@@ -90,6 +90,7 @@
           </a>
         </div>
       </nav>
+      <a href="https://console.apus.network/console/dashboard/market"><div class="btn-console">Console</div></a>
     </div>
   </header>
   <RouterView />
@@ -185,7 +186,7 @@ onUnmounted(() => {
   border-bottom: 2px solid #ededed;
 
   nav {
-    height: inherit;
+    // height: inherit;
     line-height: inherit;
     vertical-align: middle;
     align-content: center;
@@ -220,6 +221,22 @@ onUnmounted(() => {
     }
   }
 }
+
+.btn-console {
+  // position: absolute;
+  // right: 16px;
+  // top: 50%;
+  // transform: translateY(-50%);
+  padding: 0 16px;
+  height: 40px;
+  line-height: 40px;
+  border-radius: 20px;
+  color: white;
+  background: linear-gradient(90deg, #0DC4FF -3.82%, #5363E4 45.97%, #A012DD 111.83%);
+  cursor: pointer;
+  font-weight: 600;
+}
+
 .mobile {
   width: 100%;
   height: 49px;
@@ -242,8 +259,11 @@ onUnmounted(() => {
   line-height: 84px;
   background-color: transparent;
   margin: 0px auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   .logo-image {
-    padding-top: 26px;
+    // padding-top: 26px;
     width: 228px;
     height: 32px;
   }
