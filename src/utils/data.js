@@ -136,7 +136,7 @@ export const contracts = [
   },
   {
     name: "GitHub",
-    href: "https://github.com/apusnetwork-official",
+    href: "https://github.com/apuslabs",
     src: c4,
   },
   {
